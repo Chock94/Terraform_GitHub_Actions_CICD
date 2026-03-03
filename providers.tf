@@ -5,10 +5,10 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "neeha-s3bucket-date"
+    bucket         = "carlos-s3bucket-03032026"
     key            = "globalstate/s3/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "neeha-date-dblocks"
+    dynamodb_table = "carlos-03032026-dblocks"
     encrypt        = true
   }
 }
