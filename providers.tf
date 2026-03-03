@@ -5,10 +5,10 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "carlos-s3bucket-03032026"
+    bucket         = "carlos-s3bucket-87231361236"
     key            = "globalstate/s3/terraform.tfstate"
     region         = "eu-west-1"
-    dynamodb_table = "carlos-030320261-dblocks"
+    dynamodb_table = "carlos-dblocks"
     encrypt        = true
   }
 }
